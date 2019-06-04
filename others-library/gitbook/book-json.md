@@ -10,7 +10,7 @@
 2.author
 
 作者的相关信息
-`"author" : "mingyue"`
+`"author" : "gintangible"`
 
 3.description
 
@@ -59,6 +59,21 @@ h1 , h2{
 ```
 
 ## 1.2. 插件列表 plugins
+
+gitbook 不提供插件搜索。在gitbook.com 不可以搜索插件。原文如下：
+```
+In general, the plugin system no longer exists. However, important plugins have become first-class features in the new version. Here is a non-exhaustive list:
+    Syntax highlighting (prism)
+    Image captions (image-captions)
+    Heading anchors (headings)
+    Easily selecting code snippet content (copy-code)
+    Algolia's search (algolia, lunr)
+    Google Analytics (ga)
+    Edit on GitHub button (github, github-buttons)
+    Page's table of content (atoc, toc)
+    Code block filename/tabs (codeblock-filename, code-tabs)
+
+```
 
 ```
 "plugins": [
@@ -109,7 +124,6 @@ Gitbook 默认自带有 5 个插件:
 
 支持中文搜索, 需要将默认的 `search`, `lunr` 插件去掉, 注意: 如果标题中有包含的关键字, 标题的样式会有所变化
 
-[插件地址](https://docs.gitbook.com/v2-changes/important-differences)
 [Github 地址](https://github.com/gitbook-plugins/gitbook-plugin-search-pro)
 
 ```
@@ -124,7 +138,6 @@ Gitbook 默认自带有 5 个插件:
 
 回到顶部
 
-[插件地址](https://docs.gitbook.com/v2-changes/important-differences)
 [Github 地址](https://github.com/stuebersystems/gitbook-plugin-back-to-top-button)
 
 ```
@@ -133,12 +146,83 @@ Gitbook 默认自带有 5 个插件:
 }
 ```
 
-## 2.3. baidu-tongji
+## 2.3. 导航目录扩展
 
-百度统计
+### 2.3.1. folding-chapters
 
-[插件地址](https://docs.gitbook.com/v2-changes/important-differences)
-[Github 地址](
-https://github.com/huisman6/gitbook-plugin-baidu-tongji)
+支持多层目录，点击导航栏的标题名就可以实现折叠扩展。
+
+[Github 地址](https://github.com/Yakima-Teng/gitbook-plugin-folding-chapters)
+
+```
+{
+	"plugins" : [ "folding-chapters" ]
+}
+```
+
+## 2.3.2. expandable-chapters (expandable-chapters-small)
+
+
+[Github 地址](https://github.com/DomainDrivenArchitecture/gitbook-plugin-expandable-chapters)
+[Github 地址](https://github.com/lookdczar/gitbook-plugin-expandable-chapters-small-auto)
+
+可扩展导航章节。支持多层目录，点击箭头才能实现收放目录。`expandable-chapters` 的箭头比 `expandable-chapters-small` 粗
+
+```
+{
+	"plugins" : [ "expandable-chapters" ]
+    "plugins" : [ "expandable-chapters-small" ]
+}
+```
+
+## 2.4. splitter
+
+侧边栏宽度可调节
+
+[Github 地址](https://github.com/yoshidax/gitbook-plugin-splitter)
+
+```
+{
+	"plugins" : [ "splitter" ]
+}
+```
+
+## 2.5. copy-code-button
+
+代码复制按钮
+
+[Github 地址](https://github.com/azu/gitbook-plugin-github-buttons)
+
+```
+{
+	"plugins" : [ "copy-code-button" ]
+}
+```
+
+## 2.6. insert-logo
+
+## 2.7. sharing-plus
+
+## 2.8. 页面添加页脚、版权信息
+
+## 2.9. donate
+
+## 2.10. 生成页内目录
+
+## 2.11. 悬浮目录
+
+## 2.12. 其他插件
+
+github-buttons  顶部添加github信息
+
+[Github 地址](https://github.com/azu/gitbook-plugin-github-buttons)
+
+baidu-tongji    百度统计
+
+[Github 地址](https://github.com/huisman6/gitbook-plugin-baidu-tongji)
+
+[了解更多插件](https://www.jianshu.com/p/427b8bb066e6)
+
+
 
 

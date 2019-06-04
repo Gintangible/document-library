@@ -3,18 +3,45 @@
     "author": "gintangible",
     "description": "gintangible 的文档库. ",
     "language": "zh-hans",
-    "styles": {
-        
-    },
+    "styles": {},
     "plugins": [
         "-search",
         "-sharing",
         "-highlight",
         "search-pro",
-        "baidu-tongji"
+        "baidu-tongji",
+        "expandable-chapters",
+        "github-buttons",
+        "splitter",
+        "copy-code-button"
     ],
     "pluginsConfig": {
-        
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ],
+            "lang": {
+                "shell": "bash"
+            }
+        },
+        "github-buttons": {
+            "buttons": [
+                {
+                    "user": "Gintangible",
+                    "repo": "document-library",
+                    "type": "star",
+                    "count": true,
+                    "size": "small"
+                },
+                {
+                    "user": "Gintangible",
+                    "width": "160",
+                    "type": "follow",
+                    "count": true,
+                    "size": "small"
+                }
+            ]
+        },
         "baidu-tongji": {
             "token": ""
         }
