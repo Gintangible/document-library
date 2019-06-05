@@ -60,7 +60,8 @@ h1 , h2{
 
 ## 1.2. 插件列表 plugins
 
-gitbook 不提供插件搜索。在gitbook.com 不可以搜索插件。原文如下：
+gitbook 取消了插件系统，无法在 gitbook 上搜索插件。原文如下：
+
 ```
 In general, the plugin system no longer exists. However, important plugins have become first-class features in the new version. Here is a non-exhaustive list:
     Syntax highlighting (prism)
@@ -201,17 +202,52 @@ Gitbook 默认自带有 5 个插件:
 
 ## 2.6. insert-logo
 
-## 2.7. sharing-plus
+将logo插入到导航栏上方中。设置路径时，设置成绝对路径，不然在其他的文件里，可能会访问不到。
 
-## 2.8. 页面添加页脚、版权信息
+[Github 地址](https://github.com/matusnovak/gitbook-plugin-insert-logo)
 
-## 2.9. donate
+```
+{
+    "plugins": [ "insert-logo" ]
+    "pluginsConfig": {
+      "insert-logo": {
+        "url": "https://github.com/Gintangible/document-library/assets/images/logo.png",
+        "style": "background: none; height: 30px; "
+      }
+    }
+}
+```
 
-## 2.10. 生成页内目录
+## 2.7. favicon
 
-## 2.11. 悬浮目录
+浏览器标签栏的favicon图标。
 
-## 2.12. 其他插件
+[Github 地址](https://github.com/Bandwidth/gitbook-plugin-custom-favicon)
+
+```
+{
+    "plugins": [
+        "favicon"
+    ],
+    "pluginsConfig": {
+        "favicon": {
+            "shortcut": "favicon.ico",
+        }
+    }
+}
+```
+
+## 2.8. sharing-plus
+
+## 2.9. 页面添加页脚、版权信息
+
+## 2.10. donate
+
+## 2.11. 生成页内目录
+
+## 2.12. 悬浮目录
+
+## 2.13. 其他插件
 
 github-buttons  顶部添加github信息
 
