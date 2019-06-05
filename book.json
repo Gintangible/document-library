@@ -3,30 +3,34 @@
     "author": "gintangible",
     "description": "gintangible 的文档库. ",
     "language": "zh-hans",
-    "styles": {},
+    "styles": {
+        "website": "./assets/css/gitbook-reset.css"
+    },
     "plugins": [
         "-search",
+        "-lunr",
         "-sharing",
         "-highlight",
         "search-pro",
         "baidu-tongji",
         "expandable-chapters",
+        "anchor-navigation-ex",
         "github-buttons",
         "splitter",
         "copy-code-button",
         "insert-logo",
-        "favicon"
+        "favicon",
+        "donate",
+        "tbfed-pagefooter",
+        "prism",
+        "theme-comscore"
     ],
     "pluginsConfig": {
         "prism": {
             "css": [
-                "prismjs/themes/prism-solarizedlight.css"
-            ],
-            "lang": {
-                "shell": "bash"
-            }
+                "prismjs/themes/prism-tomorrow.css"
+            ]
         },
-
         "github-buttons": {
             "buttons": [{
                     "user": "Gintangible",
@@ -44,15 +48,30 @@
                 }
             ]
         },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
         "insert-logo": {
-            "url": "https://github.com/Gintangible/document-library/assets/images/logo.png",
+            "url": "https://github.com/Gintangible/document-library/blob/master/assets/images/logo.png",
             "style": "background: none; height: 60px;"
         },
         "favicon": {
-            "shortcut": "https://github.com/Gintangible/document-library/favicon.ico"
+            "shortcut": "https://github.com/Gintangible/document-library/blob/master/favicon.ico"
         },
         "baidu-tongji": {
             "token": ""
+        },
+        "donate": {
+            "button": "加好友",
+            "alipayText": "支付宝打赏",
+            "wechatText": "微信打赏",
+            "wechat": "https://github.com/Gintangible/document-library/blob/master/assets/images/wx-code.jpg",
+            "alipay": "https://github.com/Gintangible/document-library/blob/master/assets/images/wx-code.jpg"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "gintangible",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
         }
     }
 }
