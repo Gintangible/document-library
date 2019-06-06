@@ -1,4 +1,4 @@
-# 目录
+# Summary
 
 * [前言](README.md)
 * [目录](SUMMARY.md)
@@ -11,12 +11,16 @@
     * [JavaScript](JavaScript-library/JavaScript/README.md)
         * [Array](JavaScript-library/JavaScript/JavaScript-Array.md)
         * [String](JavaScript-library/JavaScript/JavaScript-String.md)
+        * [Reg](JavaScript-library/JavaScript/JavaScript-Reg.md)
     * [jQuery](JavaScript-library/jQuery/README.md)
         * [jQuery 工作常用](JavaScript-library/jQuery/jQuery-used.md)
     * [Vue](JavaScript-library/Vue/README.md)
+        * [Vue 开发](JavaScript-library/Vue/Vue-develop.md)
         * [Vue Router](JavaScript-library/Vue/Vue-router.md)
         * [Vue axios](JavaScript-library/Vue/Vue-axios.md)
-    *
 * [others-library](others-library/README.md)
-    * [gitbook 配置](others-library/gitbook/book-json.md)
+    * [gitbook](others-library/gitbook/README.md)
+        * [gitbook 配置](others-library/gitbook/book-json.md)
+        * [gitbook issues](others-library/gitbook/gitbook-issues.md)
     * [webpack](others-library/webpack/README.md)
+
