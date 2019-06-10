@@ -15,3 +15,14 @@
     font-size: 1px;
     line-height: 15px;
 }
+
+.markdown-section a img {
+    margin: 0 6px;
+    padding: 5px;
+    box-shadow: 0 0 4px #ccc;
+    transition: all .5s;
+}
+
+.markdown-section a img:hover {
+    transform: translateY(-3px);
+}
