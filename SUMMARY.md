@@ -15,6 +15,7 @@
     * [jQuery](JavaScript-library/jQuery/README.md)
         * [jQuery 工作常用](JavaScript-library/jQuery/jQuery-used.md)
     * [Vue](JavaScript-library/Vue/README.md)
+        * [Vue 基础](JavaScript-library/Vue/Vue-base.md)
         * [Vue 开发](JavaScript-library/Vue/Vue-develop.md)
         * [Vue Router](JavaScript-library/Vue/Vue-router.md)
         * [Vue axios](JavaScript-library/Vue/Vue-axios.md)
@@ -23,4 +24,5 @@
         * [gitbook 配置](others-library/gitbook/book-json.md)
         * [gitbook issues](others-library/gitbook/gitbook-issues.md)
     * [webpack](others-library/webpack/README.md)
+* [软件推荐](software/README.md)
 
