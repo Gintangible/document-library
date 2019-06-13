@@ -23,5 +23,7 @@
         * [gitbook 配置](others-library/gitbook/book-json.md)
         * [gitbook issues](others-library/gitbook/gitbook-issues.md)
     * [webpack](others-library/webpack/README.md)
-* [软件推荐](software/README.md)
-
+    * [前端性能优化](others-library/web-optimization/README.md)
+* [软件介绍](software/README.md)
+    * [软件推荐](software/software-recommend.md)
+    * [VSCode](software/vscode.md)

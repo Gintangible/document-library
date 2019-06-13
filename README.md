@@ -17,6 +17,7 @@ xxx.
 | CSS-library | CSS 文档库 |
 | JavaScript-library | JavaScript 文档库 |
 | other-library | 其他文档库 |
+| software | 一些软件使用及推荐 |
 
 
 
