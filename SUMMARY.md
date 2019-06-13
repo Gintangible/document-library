@@ -1,4 +1,4 @@
-# 目录
+# Summary
 
 * [前言](README.md)
 * [目录](SUMMARY.md)
@@ -15,8 +15,8 @@
         * [jQuery 工作常用](JavaScript-library/jQuery/jQuery-used.md)
     * [Vue](JavaScript-library/Vue/README.md)
         * [Vue Router](JavaScript-library/Vue/Vue-router.md)
-        * [Vue axios](JavaScript-library/Vue/Vue-axios.md)
-    *
+        * [Axios](JavaScript-library/Vue/Axios.md)
 * [others-library](others-library/README.md)
     * [gitbook 配置](others-library/gitbook/book-json.md)
     * [webpack](others-library/webpack/README.md)
+
