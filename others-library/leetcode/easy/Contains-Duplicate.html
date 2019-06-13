@@ -1,0 +1,891 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Contains Duplicate · gintangible 的文档库</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="gintangible">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../assets/css/gitbook-reset.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Single-Number.html" />
+    
+    
+    <link rel="prev" href="Rotate-Array.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../../../https:/github.com/Gintangible/document-library/blob/master/favicon.ico' type="image/x-icon">
+    
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"Gintangible","repo":"document-library","type":"star","count":true,"size":"small"},{"user":"Gintangible","width":"160","type":"follow","count":true,"size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../SUMMARY.html">
+            
+                <a href="../../../SUMMARY.html">
+            
+                    
+                    目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../../HTML-library/">
+            
+                <a href="../../../HTML-library/">
+            
+                    
+                    HTML Library
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../../HTML-library/HTML-label.html">
+            
+                <a href="../../../HTML-library/HTML-label.html">
+            
+                    
+                    HTML label
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../../CSS-library/">
+            
+                <a href="../../../CSS-library/">
+            
+                    
+                    CSS Library
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../../CSS-library/CSS-reset.html">
+            
+                <a href="../../../CSS-library/CSS-reset.html">
+            
+                    
+                    CSS 重置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../../CSS-library/CSS-effect.html">
+            
+                <a href="../../../CSS-library/CSS-effect.html">
+            
+                    
+                    CSS 酷炫效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../../JavaScript-library/">
+            
+                <a href="../../../JavaScript-library/">
+            
+                    
+                    JavaScript library
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../../JavaScript-library/JavaScript/">
+            
+                <a href="../../../JavaScript-library/JavaScript/">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../../../JavaScript-library/JavaScript/JavaScript-Array.html">
+            
+                <a href="../../../JavaScript-library/JavaScript/JavaScript-Array.html">
+            
+                    
+                    Array
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="../../../JavaScript-library/JavaScript/JavaScript-String.html">
+            
+                <a href="../../../JavaScript-library/JavaScript/JavaScript-String.html">
+            
+                    
+                    String
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3" data-path="../../../JavaScript-library/JavaScript/JavaScript-Reg.html">
+            
+                <a href="../../../JavaScript-library/JavaScript/JavaScript-Reg.html">
+            
+                    
+                    Reg
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../../JavaScript-library/jQuery/">
+            
+                <a href="../../../JavaScript-library/jQuery/">
+            
+                    
+                    jQuery
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../../JavaScript-library/jQuery/jQuery-used.html">
+            
+                <a href="../../../JavaScript-library/jQuery/jQuery-used.html">
+            
+                    
+                    jQuery 工作常用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../../JavaScript-library/Vue/">
+            
+                <a href="../../../JavaScript-library/Vue/">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="../../../JavaScript-library/Vue/Vue-base.html">
+            
+                <a href="../../../JavaScript-library/Vue/Vue-base.html">
+            
+                    
+                    Vue 基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="../../../JavaScript-library/Vue/Vue-develop.html">
+            
+                <a href="../../../JavaScript-library/Vue/Vue-develop.html">
+            
+                    
+                    Vue 开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.3" data-path="../../../JavaScript-library/Vue/Vue-cases.html">
+            
+                <a href="../../../JavaScript-library/Vue/Vue-cases.html">
+            
+                    
+                    Vue 案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    others-library
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    leetcode
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简单难度
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1.1" data-path="Two-Sum.html">
+            
+                <a href="Two-Sum.html">
+            
+                    
+                    Two Sum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.2" data-path="Remove-Duplicates-from-Sorted-Array.html">
+            
+                <a href="Remove-Duplicates-from-Sorted-Array.html">
+            
+                    
+                    Remove Duplicates from Sorted Array
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.3" data-path="Best-Time-to-Buy-and-Sell-StockII.html">
+            
+                <a href="Best-Time-to-Buy-and-Sell-StockII.html">
+            
+                    
+                    Best Time to Buy and Sell Stock II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.4" data-path="Rotate-Array.html">
+            
+                <a href="Rotate-Array.html">
+            
+                    
+                    Rotate Array
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.1.1.5" data-path="Contains-Duplicate.html">
+            
+                <a href="Contains-Duplicate.html">
+            
+                    
+                    Contains Duplicate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.6" data-path="Single-Number.html">
+            
+                <a href="Single-Number.html">
+            
+                    
+                    Single Number
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.7" data-path="Intersection-of-Two-ArraysII.html">
+            
+                <a href="Intersection-of-Two-ArraysII.html">
+            
+                    
+                    Intersection of Two Arrays II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.8" data-path="Plus-One.html">
+            
+                <a href="Plus-One.html">
+            
+                    
+                    Plus One
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.9" data-path="Move-Zeroes.html">
+            
+                <a href="Move-Zeroes.html">
+            
+                    
+                    Move Zeroes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.10" data-path="Valid-Sudoku.html">
+            
+                <a href="Valid-Sudoku.html">
+            
+                    
+                    Valid Sudoku
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.11" data-path="Rotate-Image.html">
+            
+                <a href="Rotate-Image.html">
+            
+                    
+                    Rotate Image
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../medium/">
+            
+                <a href="../medium/">
+            
+                    
+                    中等难度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="../hard/">
+            
+                <a href="../hard/">
+            
+                    
+                    困难难度
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../gitbook/">
+            
+                <a href="../../gitbook/">
+            
+                    
+                    gitbook
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../../gitbook/book-json.html">
+            
+                <a href="../../gitbook/book-json.html">
+            
+                    
+                    gitbook 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../../gitbook/gitbook-issues.html">
+            
+                <a href="../../gitbook/gitbook-issues.html">
+            
+                    
+                    gitbook issues
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../webpack/">
+            
+                <a href="../../webpack/">
+            
+                    
+                    webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../web-optimization/">
+            
+                <a href="../../web-optimization/">
+            
+                    
+                    前端性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../../software/">
+            
+                <a href="../../../software/">
+            
+                    
+                    软件介绍
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../../software/software-recommend.html">
+            
+                <a href="../../../software/software-recommend.html">
+            
+                    
+                    软件推荐
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../../software/vscode.html">
+            
+                <a href="../../../software/vscode.html">
+            
+                    
+                    VSCode
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >Contains Duplicate</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#contains-duplicate"><b></b>Contains Duplicate</a></li></ul></div><a href="#contains-duplicate" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="contains-duplicate"><a name="contains-duplicate" class="anchor-navigation-ex-anchor" href="#contains-duplicate"><i class="fa fa-link" aria-hidden="true"></i></a>Contains Duplicate</h1>
+<footer class="page-footer"><span class="copyright">gintangible all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-06-13 23:03:15
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Rotate-Array.html" class="navigation navigation-prev " aria-label="Previous page: Rotate Array">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Single-Number.html" class="navigation navigation-next " aria-label="Next page: Single Number">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Contains Duplicate","level":"1.6.1.1.5","depth":4,"next":{"title":"Single Number","level":"1.6.1.1.6","depth":4,"path":"others-library/leetcode/easy/Single-Number.md","ref":"others-library/leetcode/easy/Single-Number.md","articles":[]},"previous":{"title":"Rotate Array","level":"1.6.1.1.4","depth":4,"path":"others-library/leetcode/easy/Rotate-Array.md","ref":"others-library/leetcode/easy/Rotate-Array.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","-lunr","-sharing","-highlight","search-pro","baidu-tongji","expandable-chapters","anchor-navigation-ex","github-buttons","splitter","copy-code-button","insert-logo","favicon","donate","tbfed-pagefooter","prism","theme-comscore"],"styles":{"website":"./assets/css/gitbook-reset.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"gintangible","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"baidu-tongji":{"url":"https://hm.baidu.com/hm.js","token":""},"splitter":{},"search-pro":{},"donate":{"alipay":"https://github.com/Gintangible/document-library/blob/master/assets/images/wx-code.jpg","alipayText":"支付宝打赏","button":"加好友","title":"","wechat":"https://github.com/Gintangible/document-library/blob/master/assets/images/wx-code.jpg","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{"shortcut":"https://github.com/Gintangible/document-library/blob/master/favicon.ico"},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"Gintangible","repo":"document-library","type":"star","count":true,"size":"small"},{"user":"Gintangible","width":"160","type":"follow","count":true,"size":"small"}]},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; height: 60px;","url":"https://github.com/Gintangible/document-library/blob/master/assets/images/logo.png"},"expandable-chapters":{}},"theme":"default","author":"gintangible","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gintangible 的文档库","language":"zh-hans","gitbook":"*","description":"gintangible 的文档库. "},"file":{"path":"others-library/leetcode/easy/Contains-Duplicate.md","mtime":"2019-06-13T15:03:15.400Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-13T15:54:27.246Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-baidu-tongji/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+

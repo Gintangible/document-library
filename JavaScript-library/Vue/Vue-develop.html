@@ -1,0 +1,958 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Vue 开发 · gintangible 的文档库</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="gintangible">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-insert-logo/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-tomorrow.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../assets/css/gitbook-reset.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Vue-cases.html" />
+    
+    
+    <link rel="prev" href="Vue-base.html" />
+    
+
+    
+        <link rel="shortcut icon" href='../../https:/github.com/Gintangible/document-library/blob/master/favicon.ico' type="image/x-icon">
+    
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"Gintangible","repo":"document-library","type":"star","count":true,"size":"small"},{"user":"Gintangible","width":"160","type":"follow","count":true,"size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../SUMMARY.html">
+            
+                <a href="../../SUMMARY.html">
+            
+                    
+                    目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../HTML-library/">
+            
+                <a href="../../HTML-library/">
+            
+                    
+                    HTML Library
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../HTML-library/HTML-label.html">
+            
+                <a href="../../HTML-library/HTML-label.html">
+            
+                    
+                    HTML label
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../CSS-library/">
+            
+                <a href="../../CSS-library/">
+            
+                    
+                    CSS Library
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../CSS-library/CSS-reset.html">
+            
+                <a href="../../CSS-library/CSS-reset.html">
+            
+                    
+                    CSS 重置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../CSS-library/CSS-effect.html">
+            
+                <a href="../../CSS-library/CSS-effect.html">
+            
+                    
+                    CSS 酷炫效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    JavaScript library
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../JavaScript/">
+            
+                <a href="../JavaScript/">
+            
+                    
+                    JavaScript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../JavaScript/JavaScript-Array.html">
+            
+                <a href="../JavaScript/JavaScript-Array.html">
+            
+                    
+                    Array
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="../JavaScript/JavaScript-String.html">
+            
+                <a href="../JavaScript/JavaScript-String.html">
+            
+                    
+                    String
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3" data-path="../JavaScript/JavaScript-Reg.html">
+            
+                <a href="../JavaScript/JavaScript-Reg.html">
+            
+                    
+                    Reg
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../jQuery/">
+            
+                <a href="../jQuery/">
+            
+                    
+                    jQuery
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../jQuery/jQuery-used.html">
+            
+                <a href="../jQuery/jQuery-used.html">
+            
+                    
+                    jQuery 工作常用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="Vue-base.html">
+            
+                <a href="Vue-base.html">
+            
+                    
+                    Vue 基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.3.2" data-path="Vue-develop.html">
+            
+                <a href="Vue-develop.html">
+            
+                    
+                    Vue 开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.3" data-path="Vue-cases.html">
+            
+                <a href="Vue-cases.html">
+            
+                    
+                    Vue 案例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../others-library/">
+            
+                <a href="../../others-library/">
+            
+                    
+                    others-library
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../others-library/leetcode/">
+            
+                <a href="../../others-library/leetcode/">
+            
+                    
+                    leetcode
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1" data-path="../../others-library/leetcode/easy/">
+            
+                <a href="../../others-library/leetcode/easy/">
+            
+                    
+                    简单难度
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1.1.1" data-path="../../others-library/leetcode/easy/Two-Sum.html">
+            
+                <a href="../../others-library/leetcode/easy/Two-Sum.html">
+            
+                    
+                    Two Sum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.2" data-path="../../others-library/leetcode/easy/Remove-Duplicates-from-Sorted-Array.html">
+            
+                <a href="../../others-library/leetcode/easy/Remove-Duplicates-from-Sorted-Array.html">
+            
+                    
+                    Remove Duplicates from Sorted Array
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.3" data-path="../../others-library/leetcode/easy/Best-Time-to-Buy-and-Sell-StockII.html">
+            
+                <a href="../../others-library/leetcode/easy/Best-Time-to-Buy-and-Sell-StockII.html">
+            
+                    
+                    Best Time to Buy and Sell Stock II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.4" data-path="../../others-library/leetcode/easy/Rotate-Array.html">
+            
+                <a href="../../others-library/leetcode/easy/Rotate-Array.html">
+            
+                    
+                    Rotate Array
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.5" data-path="../../others-library/leetcode/easy/Contains-Duplicate.html">
+            
+                <a href="../../others-library/leetcode/easy/Contains-Duplicate.html">
+            
+                    
+                    Contains Duplicate
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.6" data-path="../../others-library/leetcode/easy/Single-Number.html">
+            
+                <a href="../../others-library/leetcode/easy/Single-Number.html">
+            
+                    
+                    Single Number
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.7" data-path="../../others-library/leetcode/easy/Intersection-of-Two-ArraysII.html">
+            
+                <a href="../../others-library/leetcode/easy/Intersection-of-Two-ArraysII.html">
+            
+                    
+                    Intersection of Two Arrays II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.8" data-path="../../others-library/leetcode/easy/Plus-One.html">
+            
+                <a href="../../others-library/leetcode/easy/Plus-One.html">
+            
+                    
+                    Plus One
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.9" data-path="../../others-library/leetcode/easy/Move-Zeroes.html">
+            
+                <a href="../../others-library/leetcode/easy/Move-Zeroes.html">
+            
+                    
+                    Move Zeroes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.10" data-path="../../others-library/leetcode/easy/Valid-Sudoku.html">
+            
+                <a href="../../others-library/leetcode/easy/Valid-Sudoku.html">
+            
+                    
+                    Valid Sudoku
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.1.11" data-path="../../others-library/leetcode/easy/Rotate-Image.html">
+            
+                <a href="../../others-library/leetcode/easy/Rotate-Image.html">
+            
+                    
+                    Rotate Image
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.2" data-path="../../others-library/leetcode/medium/">
+            
+                <a href="../../others-library/leetcode/medium/">
+            
+                    
+                    中等难度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.1.3" data-path="../../others-library/leetcode/hard/">
+            
+                <a href="../../others-library/leetcode/hard/">
+            
+                    
+                    困难难度
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../others-library/gitbook/">
+            
+                <a href="../../others-library/gitbook/">
+            
+                    
+                    gitbook
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../../others-library/gitbook/book-json.html">
+            
+                <a href="../../others-library/gitbook/book-json.html">
+            
+                    
+                    gitbook 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../../others-library/gitbook/gitbook-issues.html">
+            
+                <a href="../../others-library/gitbook/gitbook-issues.html">
+            
+                    
+                    gitbook issues
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../others-library/webpack/">
+            
+                <a href="../../others-library/webpack/">
+            
+                    
+                    webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../others-library/web-optimization/">
+            
+                <a href="../../others-library/web-optimization/">
+            
+                    
+                    前端性能优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../software/">
+            
+                <a href="../../software/">
+            
+                    
+                    软件介绍
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../software/software-recommend.html">
+            
+                <a href="../../software/software-recommend.html">
+            
+                    
+                    软件推荐
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../software/vscode.html">
+            
+                <a href="../../software/vscode.html">
+            
+                    
+                    VSCode
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Vue 开发</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#vue-&#x5F00;&#x53D1;"><b></b>Vue &#x5F00;&#x53D1;</a></li><ul><li><span class="title-icon "></span><a href="#1&#x3001;vue-cli"><b></b>1&#x3001;Vue CLI</a></li><li><span class="title-icon "></span><a href="#&#x9879;&#x76EE;&#x76EE;&#x5F55;"><b></b>&#x9879;&#x76EE;&#x76EE;&#x5F55;</a></li></ul></ul></div><a href="#vue-&#x5F00;&#x53D1;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="vue-&#x5F00;&#x53D1;"><a name="vue-&#x5F00;&#x53D1;" class="anchor-navigation-ex-anchor" href="#vue-&#x5F00;&#x53D1;"><i class="fa fa-link" aria-hidden="true"></i></a>Vue &#x5F00;&#x53D1;</h1>
+<p><code>Vue</code>&#x5E38;&#x89C1;&#x7684;&#x7684;&#x5F00;&#x53D1;&#x6A21;&#x5F0F;<code>vue vuex vue-router axios</code>&#x3002;</p>
+<h2 id="1&#x3001;vue-cli"><a name="1&#x3001;vue-cli" class="anchor-navigation-ex-anchor" href="#1&#x3001;vue-cli"><i class="fa fa-link" aria-hidden="true"></i></a>1&#x3001;Vue CLI</h2>
+<p>&#x7248;&#x672C;&#xFF1A;3.8.2</p>
+<p><a href="https://cli.vuejs.org/zh/guide/" target="_blank">Vue CLI&#x6587;&#x6863;</a></p>
+<p>1&#x3001;vue cli &#x5B89;&#x88C5;</p>
+<p><code>npm install -g @vue/cli</code></p>
+<p>2&#x3001;&#x521B;&#x5EFA;&#x9879;&#x76EE;</p>
+<p><code>vue create your-project</code></p>
+<h2 id="&#x9879;&#x76EE;&#x76EE;&#x5F55;"><a name="&#x9879;&#x76EE;&#x76EE;&#x5F55;" class="anchor-navigation-ex-anchor" href="#&#x9879;&#x76EE;&#x76EE;&#x5F55;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x9879;&#x76EE;&#x76EE;&#x5F55;</h2>
+<p><a href="https://www.jianshu.com/p/cf9b56efd3b8" target="_blank">&#x76EE;&#x5F55;&#x7ED3;&#x6784;&#x89E3;&#x6790;</a></p>
+<blockquote>
+<p>&#x521D;&#x59CB;&#x5316;&#x76EE;&#x5F55;&#xFF1A;</p>
+</blockquote>
+<pre class="language-"><code>|-- dist &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x6253;&#x5305;&#x540E;&#x6587;&#x4EF6;&#x5939;            
+|-- public &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x9759;&#x6001;&#x6587;&#x4EF6;&#x5939;                                   
+|   |-- favicon.ico                     
+|   |-- index.html                 &#x2014;&#x2014;&#x2014;&#x2014; &#x5165;&#x53E3;&#x9875;&#x9762;
+|-- src &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x6E90;&#x7801;&#x76EE;&#x5F55;         
+|   |--assets                      &#x2014;&#x2014;&#x2014;&#x2014; &#x6A21;&#x5757;&#x8D44;&#x6E90;
+|   |--components                  &#x2014;&#x2014;&#x2014;&#x2014; vue&#x516C;&#x5171;&#x7EC4;&#x4EF6;
+|   |--views                       &#x2014;&#x2014;&#x2014;&#x2014; &#x9875;&#x9762;&#x6587;&#x4EF6;
+|   |--App.vue                     &#x2014;&#x2014;&#x2014;&#x2014; &#x9875;&#x9762;&#x5165;&#x53E3;&#x6587;&#x4EF6;
+|   |--main.js                     &#x2014;&#x2014;&#x2014;&#x2014; &#x5165;&#x53E3;&#x6587;&#x4EF6;&#xFF0C;&#x52A0;&#x8F7D;&#x516C;&#x5171;&#x7EC4;&#x4EF6;
+|   |--router.js                   &#x2014;&#x2014;&#x2014;&#x2014; &#x8DEF;&#x7531;&#x914D;&#x7F6E;
+|   |--store.js                    &#x2014;&#x2014;&#x2014;&#x2014; &#x72B6;&#x6001;&#x7BA1;&#x7406;  
+|-- vue.config.js &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x914D;&#x7F6E;&#x6587;&#x4EF6; 
+|-- .eslintrc.js &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; ES-lint&#x6821;&#x9A8C;                   
+|-- .gitignore &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; git&#x5FFD;&#x7565;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x683C;&#x5F0F;   
+|-- babel.config.js &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; babel&#x8BED;&#x6CD5;&#x7F16;&#x8BD1;                        
+|-- package.json &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x9879;&#x76EE;&#x57FA;&#x672C;&#x4FE1;&#x606F; 
+|-- postcss.config.js &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; CSS&#x9884;&#x5904;&#x7406;&#x5668;(&#x6B64;&#x5904;&#x9ED8;&#x8BA4;&#x542F;&#x7528;autoprefixer)
+</code></pre><p>&#x5BF9;&#x521D;&#x59CB;&#x5316;&#x76EE;&#x5F55;&#x505A;&#x4E0B;&#x4F18;&#x5316;&#xFF1A;</p>
+<blockquote>
+<p>&#x4F18;&#x5316;&#x76EE;&#x5F55;&#xFF1A;</p>
+</blockquote>
+<pre class="language-"><code>|-- dist &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x6253;&#x5305;&#x540E;&#x6587;&#x4EF6;&#x5939;            
+|-- public &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x9759;&#x6001;&#x6587;&#x4EF6;&#x5939;                                   
+|   |-- favicon.ico                     
+|   |-- index.html                 &#x2014;&#x2014;&#x2014;&#x2014; &#x5165;&#x53E3;&#x9875;&#x9762;
+|-- src &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x6E90;&#x7801;&#x76EE;&#x5F55;
+|   |--api                         &#x2014;&#x2014;&#x2014;&#x2014; &#x63A5;&#x53E3;&#x7EDF;&#x4E00;&#x7BA1;&#x7406;&#x6587;&#x4EF6;&#x5939;
+        -- api.js                  &#x2014;&#x2014;&#x2014;&#x2014; &#x63A5;&#x53E3;&#x6587;&#x4EF6;
+|   |--assets                      &#x2014;&#x2014;&#x2014;&#x2014; &#x6A21;&#x5757;&#x8D44;&#x6E90;
+|   |--components                  &#x2014;&#x2014;&#x2014;&#x2014; vue&#x516C;&#x5171;&#x7EC4;&#x4EF6;
+|   |--mockjs                      &#x2014;&#x2014;&#x2014;&#x2014; &#x6570;&#x636E;&#x6A21;&#x62DF;
+|   |--router                      &#x2014;&#x2014;&#x2014;&#x2014; &#x8DEF;&#x7531;&#x6587;&#x4EF6;&#x5939;
+        -- index.js                &#x2014;&#x2014;&#x2014;&#x2014; &#x8DEF;&#x7531;&#x6587;&#x4EF6;
+|   |--store                       &#x2014;&#x2014;&#x2014;&#x2014; &#x72B6;&#x6001;&#x6587;&#x4EF6;&#x5939;  
+        -- index.js                &#x2014;&#x2014;&#x2014;&#x2014; &#x72B6;&#x6001;&#x6587;&#x4EF6;       
+|   |--style                       &#x2014;&#x2014;&#x2014;&#x2014; &#x6837;&#x5F0F;&#x6587;&#x4EF6;  
+        -- common.scss             &#x2014;&#x2014;&#x2014;&#x2014; &#x516C;&#x5171;&#x6837;&#x5F0F;
+|   |--utils                       &#x2014;&#x2014;&#x2014;&#x2014; &#x5DE5;&#x5177;&#x6587;&#x4EF6;&#x5939;
+        -- fetch.js                &#x2014;&#x2014;&#x2014;&#x2014; &#x5DE5;&#x5177;&#x51FD;&#x6570;
+|   |--views                       &#x2014;&#x2014;&#x2014;&#x2014; &#x9875;&#x9762;&#x6587;&#x4EF6;
+|   |--App.vue                     &#x2014;&#x2014;&#x2014;&#x2014; &#x9875;&#x9762;&#x5165;&#x53E3;&#x6587;&#x4EF6;
+|   |--main.js                     &#x2014;&#x2014;&#x2014;&#x2014; &#x5165;&#x53E3;&#x6587;&#x4EF6;&#xFF0C;&#x52A0;&#x8F7D;&#x516C;&#x5171;&#x7EC4;&#x4EF6;
+|-- .env      &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x7EBF;&#x4E0A;&#x73AF;&#x5883; 
+|-- .env.development &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x6D4B;&#x8BD5;&#x73AF;&#x5883;    
+|-- .env.production &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x751F;&#x4EA7;&#x73AF;&#x5883;     
+|-- vue.config.js &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x914D;&#x7F6E;&#x6587;&#x4EF6; 
+|-- .eslintrc.js &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; ES-lint&#x6821;&#x9A8C;                   
+|-- .gitignore &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; git&#x5FFD;&#x7565;&#x4E0A;&#x4F20;&#x7684;&#x6587;&#x4EF6;&#x683C;&#x5F0F;   
+|-- babel.config.js &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; babel&#x8BED;&#x6CD5;&#x7F16;&#x8BD1;                        
+|-- package.json &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; &#x9879;&#x76EE;&#x57FA;&#x672C;&#x4FE1;&#x606F; 
+|-- postcss.config.js &#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014;&#x2014; CSS&#x9884;&#x5904;&#x7406;&#x5668;(&#x6B64;&#x5904;&#x9ED8;&#x8BA4;&#x542F;&#x7528;autoprefixer)
+</code></pre><p>&#x5BF9;&#x4E8E;&#x591A;&#x73AF;&#x5883;&#x914D;&#x7F6E;&#xFF0C;&#x76EE;&#x524D;&#x65E0;&#x6B63;&#x5F0F;&#x6570;&#x636E;&#xFF0C;&#x5148;&#x7422;&#x78E8;&#x7740;&#x5F04;&#xFF0C;<a href="https://blog.csdn.net/qq_36407748/article/details/82050976" target="_blank">&#x5148;&#x53C2;&#x8003;&#x8FD9;&#x4E2A;</a></p>
+<p>&#x5F53;&#x524D;<a href="https://github.com/Gintangible/vue-template" target="_blank">&#x521D;&#x59CB;&#x6A21;&#x677F;</a> </p>
+<footer class="page-footer"><span class="copyright">gintangible all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2019-06-13 23:03:15
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Vue-base.html" class="navigation navigation-prev " aria-label="Previous page: Vue 基础">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Vue-cases.html" class="navigation navigation-next " aria-label="Next page: Vue 案例">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Vue 开发","level":"1.5.3.2","depth":3,"next":{"title":"Vue 案例","level":"1.5.3.3","depth":3,"path":"JavaScript-library/Vue/Vue-cases.md","ref":"JavaScript-library/Vue/Vue-cases.md","articles":[]},"previous":{"title":"Vue 基础","level":"1.5.3.1","depth":3,"path":"JavaScript-library/Vue/Vue-base.md","ref":"JavaScript-library/Vue/Vue-base.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","-lunr","-sharing","-highlight","search-pro","baidu-tongji","expandable-chapters","anchor-navigation-ex","github-buttons","splitter","copy-code-button","insert-logo","favicon","donate","tbfed-pagefooter","prism","theme-comscore"],"styles":{"website":"./assets/css/gitbook-reset.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"gintangible","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-tomorrow.css"]},"baidu-tongji":{"url":"https://hm.baidu.com/hm.js","token":""},"splitter":{},"search-pro":{},"donate":{"alipay":"https://github.com/Gintangible/document-library/blob/master/assets/images/wx-code.jpg","alipayText":"支付宝打赏","button":"加好友","title":"","wechat":"https://github.com/Gintangible/document-library/blob/master/assets/images/wx-code.jpg","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"favicon":{"shortcut":"https://github.com/Gintangible/document-library/blob/master/favicon.ico"},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"Gintangible","repo":"document-library","type":"star","count":true,"size":"small"},{"user":"Gintangible","width":"160","type":"follow","count":true,"size":"small"}]},"copy-code-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"style":"background: none; height: 60px;","url":"https://github.com/Gintangible/document-library/blob/master/assets/images/logo.png"},"expandable-chapters":{}},"theme":"default","author":"gintangible","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"gintangible 的文档库","language":"zh-hans","gitbook":"*","description":"gintangible 的文档库. "},"file":{"path":"JavaScript-library/Vue/Vue-develop.md","mtime":"2019-06-13T15:03:15.400Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-13T15:54:27.246Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-baidu-tongji/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-insert-logo/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
