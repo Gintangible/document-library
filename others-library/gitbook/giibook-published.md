@@ -18,7 +18,7 @@
 
 ## 2. 讲书籍部署到 gh-pages 分支
 
-这里用到的是 `gh-pages` 工具。它可以将文件夹一键发布到 GitHub 项目下的 gh-pages 分支中。目前只能发布到 `gh-pages` 分支上，如何一键发布到其他分支上，等待后续研究。
+这里用到的是 `gh-pages` 插件。它可以将文件夹一键发布到 GitHub 项目下的 gh-pages 分支中。目前只能发布到 `gh-pages` 分支上，如何一键发布到其他分支上，请看 [`插件`](https://github.com/tschaub/gh-pages) 文档。
 
 安装 `gh-pages`：
 
