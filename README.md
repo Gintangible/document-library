@@ -2,7 +2,7 @@
 
 ## 在线地址
 
-xxx.
+[在线地址](https://gintangible.github.io/document-library/)
 
 ## 一 缘起
 
@@ -17,6 +17,7 @@ xxx.
 | CSS-library | CSS 文档库 |
 | JavaScript-library | JavaScript 文档库 |
 | other-library | 其他文档库 |
+| software | 一些软件使用及推荐 |
 
 
 
