@@ -36,6 +36,7 @@
         * [困难难度](others-library/leetcode/hard/README.md)
     * [gitbook](others-library/gitbook/README.md)
         * [gitbook 配置](others-library/gitbook/book-json.md)
+        * [gitbook 部署](others-library/gitbook/gitbook-published.md)
         * [gitbook issues](others-library/gitbook/gitbook-issues.md)
     * [webpack](others-library/webpack/README.md)
     * [前端性能优化](others-library/web-optimization/README.md)
