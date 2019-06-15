@@ -42,4 +42,5 @@
 * [软件介绍](software/README.md)
     * [软件推荐](software/software-recommend.md)
     * [VSCode](software/vscode.md)
+    * [final Shell](software/final-shell.md)
 
