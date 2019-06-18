@@ -1,6 +1,4 @@
-# Vue case
-
-## 1. vue-admin-element
+# Vue-element-admin
 
 参考 github [vue-admin-element](https://github.com/PanJiaChen/vue-element-admin) 写的。
 
