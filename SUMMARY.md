@@ -21,6 +21,9 @@
             * [Vue-element-admin 分析1](JavaScript-library/Vue/Vue-element-admin/step1.md)
         * [Vue components](JavaScript-library/Vue/Vue-components/README.md)
             * [svg](JavaScript-library/Vue/Vue-components/svg.md)
+        * [Vue 源码](JavaScript-library/Vue/Vue-source-code/README.md)
+    * [JavaScript Function](JavaScript-library/Function/README.md)
+        * [Promise all](JavaScript-library/Function/Promise-all.md)
 * [others-library](others-library/README.md)
     * [leetcode](others-library/leetcode/README.md)
         * [简单难度](others-library/leetcode/easy/README.md)
@@ -47,4 +50,7 @@
     * [软件推荐](software/software-recommend.md)
     * [VSCode](software/vscode.md)
     * [final Shell](software/final-shell.md)
+* [闲情雅致](life/README.md)
+    * [美食](life/food/README.md)
+    * [阅读](life/read/README.md)
 
