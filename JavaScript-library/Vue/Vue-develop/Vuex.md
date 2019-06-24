@@ -18,6 +18,12 @@ npm 安装
 |   |-- index.js                   ———— 入口文件
 ```
 
+state 数据源
+mutation 非常类似于事件。
+Action 提交的是 mutation，而不是直接变更状态。
+Action 可以包含任意异步操作。
+
+
 > moduleA.js
 
 ```
@@ -40,7 +46,7 @@ const moduleA = {
 export default moduleA;
 ```
 
-> getters
+> getters.js
 
 ```
 const getters = {
