@@ -24,6 +24,7 @@
         * [Vue-element-admin](JavaScript-library/Vue/Vue-element-admin/README.md)
             * [Vue-element-admin 分析1](JavaScript-library/Vue/Vue-element-admin/step1.md)
         * [Vue components](JavaScript-library/Vue/Vue-components/README.md)
+            * [组件通信](JavaScript-library/Vue/Vue-components/components-base.md)
             * [svg](JavaScript-library/Vue/Vue-components/svg.md)
         * [Vue 源码](JavaScript-library/Vue/Vue-source-code/README.md)
     * [JavaScript Function](JavaScript-library/Function/README.md)
