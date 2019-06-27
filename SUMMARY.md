@@ -12,6 +12,7 @@
         * [Array](JavaScript-library/JavaScript/JavaScript-Array.md)
         * [String](JavaScript-library/JavaScript/JavaScript-String.md)
         * [Reg](JavaScript-library/JavaScript/JavaScript-Reg.md)
+        * [深拷贝与浅拷贝的区别](JavaScript-library/JavaScript/JavaScript-clone.md)
     * [jQuery](JavaScript-library/jQuery/README.md)
         * [jQuery 工作常用](JavaScript-library/jQuery/jQuery-used.md)
     * [Vue](JavaScript-library/Vue/README.md)
