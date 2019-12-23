@@ -8,8 +8,8 @@
 
 ```
 <template>
-    <svg :class="svgClass" aria-hidden="true">
-        <use :xlink:href="iconName" />
+    <svg class="svg-icon" aria-hidden="true">
+        <use :xlink:href="iconID" />
     </svg>
 </template>
 
@@ -17,25 +17,14 @@
 export default {
     name: 'SvgIcon',
     props: {
-        iconClass: {
+        iconName: {
             type: String,
             required: true
-        },
-        className: {
-            type: String,
-            default: ''
         }
     },
     computed: {
-        iconName() {
-            return `#icon-${this.iconClass}`;
-        },
-        svgClass() {
-            if (this.className) {
-                return 'svg-icon ' + this.className;
-            } else {
-                return 'svg-icon';
-            }
+        iconID() {
+            return `#icon-${this.iconName}`;
         }
     }
 };
@@ -115,7 +104,7 @@ chainWebpack(config){
 
 ## 5. 在页面中引用
 
-`<svg-icon icon-class="home"></svg-icon>`
+`<svg-icon icon-Name="home"></svg-icon>`
 
 **打包之前必须修改路径，不然不会显示svg图**
 
