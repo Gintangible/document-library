@@ -105,6 +105,14 @@ module.exports = {
             }
         }
     },
+    // 通用 mixin.scss var.scss 等引入.PS：结尾文件加;
+    css: {
+        loaderOptions: {
+          sass: {
+            prependData: `@import "@/styles/mixin.scss";`
+          }
+        }
+    },
     chainWebpack(config) {
         // set svg-sprite-loader
         config.module
