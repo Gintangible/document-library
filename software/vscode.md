@@ -11,6 +11,7 @@
 * Settting Sync
 * Vetur
 * VSCode-icons
+* open in browse
 
 ## 用户设置
 

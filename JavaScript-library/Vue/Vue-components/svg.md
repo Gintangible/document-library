@@ -109,3 +109,6 @@ chainWebpack(config){
 **打包之前必须修改路径，不然不会显示svg图**
 
 `assetsPublicPath: '/',`
+
+<font color="#f00">注意：vue项目中，使用svg图标，但为svg图标绑定click事件时，点击没有反应。百度后说部分浏览器会出现点击没有反应的情况。故，在svg外面添加一个容器设置事件。</font>
+

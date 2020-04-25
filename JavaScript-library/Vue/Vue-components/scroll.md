@@ -2,6 +2,8 @@
 
 > scroll.vue
 
+[better-scroll](http://ustbhuangyi.github.io/better-scroll/doc/)
+
 ```
 <template>
 	<div ref="wrapper">
@@ -13,6 +15,7 @@
 import BScroll from 'better-scroll';
 
 export default {
+	name: 'Scroll',
 	props: {
 		/** * 1 滚动的时候会派发scroll事件，会截流。
 		 * * 2 滚动的时候实时派发scroll事件，不会截流。
@@ -26,23 +29,23 @@ export default {
 			type: Boolean,
 			default: true
 		},
+		// 列表的数据
+		data: {
+			type: Array,
+			default: []
+		},
 		// 是否派发滚动事件
 		listenScroll: {
 			type: Boolean,
 			default: false
 		},
-		// 列表的数据
-		data: {
-			type: Array,
-			default: null
-		},
 		// 是否派发滚动到底部的事件，用于上拉加载
-		pullup: {
+		listenScrollEnd: {
 			type: Boolean,
 			default: false
 		},
 		// 是否派发列表滚动开始的事件
-		beforeScroll: {
+		listenScrollBefore: {
 			type: Boolean,
 			default: false
 		},
@@ -50,6 +53,13 @@ export default {
 		refreshDelay: {
 			type: Number,
 			default: 20
+		}
+	},
+	watch: {
+		data() {
+			setTimeout(() => {
+				this.refresh();
+			}, this.refreshDelay);
 		}
 	},
 	mounted() {
@@ -62,27 +72,29 @@ export default {
 			if (!this.$refs.wrapper) {
 				return;
 			}
-			this.scroll = new BScroll(this.$refs.wrapper, {
+
+			let options = {
 				probeType: this.probeType,
 				click: this.click
-			});
+			};
+
+			this.scroll = new BScroll(this.$refs.wrapper, options);
 
 			if (this.listenScroll) {
-				let me = this;
-				this.scroll.on('scroll', pos => {
-					me.$emit('scroll', pos);
+				this.scroll.on('scroll', (pos) => {
+					this.$emit('scroll', pos);
 				});
 			}
 
-			if (this.pullup) {
-				this.scroll.on('scrollEnd', () => {
+			if (this.listenScrollEnd) {
+				this.scroll.on('scrollEnd', (pos) => {
 					if (this.scroll.y <= this.scroll.maxScrollY + 50) {
-						this.$emit('scrollToEnd');
+						this.$emit('scrollToEnd', pos);
 					}
 				});
 			}
 
-			if (this.beforeScroll) {
+			if (this.listenScrollBefore) {
 				this.scroll.on('beforeScrollStart', () => {
 					this.$emit('beforeScroll');
 				});
@@ -103,15 +115,22 @@ export default {
 		scrollToElement() {
 			this.scroll &&
 				this.scroll.scrollToElement.apply(this.scroll, arguments);
-		}
-	},
-	watch: {
-		data() {
-			setTimeout(() => {
-				this.refresh();
-			}, this.refreshDelay);
+		},
+		destroy() {
+			this.scroll && this.scroll.destroy();
 		}
 	}
 };
 </script>
 ```
+
+<font color="#f00">注意：使用 `scroll` 组件时，不能存在多级`div`, `scroll` 有高度设置，不然滚动事件可能会失效。如下</font>
+
+```
+<Scroll>
+	<div>
+		内容
+	</div>
+<Scroll>
+```
+
