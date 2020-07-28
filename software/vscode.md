@@ -12,6 +12,7 @@
 * Vetur
 * VSCode-icons
 * open in browse
+* git lens
 
 ## 用户设置
 
