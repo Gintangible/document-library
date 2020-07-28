@@ -33,14 +33,18 @@ function deepClone(obj) {
 2.深拷贝方式二
 
 ```
-function deepClone(obj) {
-    let objClone = Array.isArray(obj) ? [] : {};
-    if (obj && typeof obj === 'object') {
-        for (key in obj) {
-            objClone[key] = typeof obj[key] === 'object' ? deepClone(obj[key]) : obj[key]; 
-        }
+function deepClone(target) {
+    if (typeof target !== 'object' || target === null || target.constructor === RegExp) {
+        return target;
     }
-    return objClone;
+
+    let cloneTarget = Array.isArray(obj) ? [] : {};
+
+    for (const key in target) {
+        cloneTarget[key] = typeof target[key] === 'object' ? deepClone(target[key]) : target[key]; 
+    }
+
+    return cloneTarget;
 }
 ```
 
