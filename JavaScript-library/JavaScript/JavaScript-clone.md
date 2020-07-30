@@ -38,15 +38,14 @@ function deepClone(target) {
         return target;
     }
 
-    let cloneTarget = Array.isArray(obj) ? [] : {};
+    let cloneTarget = Array.isArray(target) ? [] : {};
 
     for (const key in target) {
-        cloneTarget[key] = typeof target[key] === 'object' ? deepClone(target[key]) : target[key]; 
+        if(target.hasOwnProperty(key)) {
+            cloneTarget[key] = typeof target[key] === 'object' ? deepClone(target[key]) : target[key];
+        }
     }
 
     return cloneTarget;
 }
 ```
-
-后续待完成，添加数据测试结果。
-
