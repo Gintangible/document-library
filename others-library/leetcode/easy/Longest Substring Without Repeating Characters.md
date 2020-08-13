@@ -39,3 +39,5 @@ var lengthOfLongestSubstring = function(str) {
     return maxLen;
 };
 ```
+
+执行用时：100 ms 内存消耗：37.6 MB

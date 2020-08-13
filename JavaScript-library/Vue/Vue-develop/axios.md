@@ -1,4 +1,4 @@
-# Axios
+## Axios
 
 > Create by **gintangible** on **2019-6-5 23:46**  
 
@@ -17,7 +17,7 @@ Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js �
 * 自动转换 JSON 数据
 * 客户端支持防御 XSRF
 
-## 1. 安装
+### 1. 安装
 
 用 npm:
 
@@ -31,7 +31,7 @@ Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js �
 
 `<script src="https://unpkg.com/axios/dist/axios.min.js"></script>`
 
-## 2. 使用方法
+### 2. 使用方法
 
 axios 的常用使用方式。
 
@@ -111,7 +111,7 @@ axios({
 });
 ```
 
-## 3. 配合`Vue`使用
+### 3. 配合`Vue`使用
 
 1. 于 `utils` 文件夹内创建 `fetch.js` 即 `axios` 封装的拦截函数。
 

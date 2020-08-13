@@ -1,8 +1,8 @@
-# Vue 开发
+## Vue 开发
 
 `Vue`常见的的开发模式`vue vuex vue-router axios`。
 
-## 1、Vue CLI
+### 1、Vue CLI
 
 版本：3.8.2
 
@@ -16,7 +16,7 @@
 
 `vue create your-project`
 
-## 项目目录
+### 项目目录
 
 [目录结构解析](https://www.jianshu.com/p/cf9b56efd3b8)
 

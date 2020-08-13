@@ -1,6 +1,6 @@
-# 1. 配置概况
+### 1. 配置概况
 
-## 1.1. 全局配置
+#### 1.1. 全局配置
 
 1.title
 
@@ -58,7 +58,7 @@ h1 , h2{
 }
 ```
 
-## 1.2. 插件列表 plugins
+#### 1.2. 插件列表 plugins
 
 gitbook 取消了插件系统，无法在 gitbook 上搜索插件。原文如下：
 
@@ -100,7 +100,7 @@ Gitbook 默认自带有 5 个插件:
 "plugins": ["-search"]
 ```
 
-## 1.3. 插件属性配置 pluginsConfig
+#### 1.3. 插件属性配置 pluginsConfig
 
 配置插件的属性
 例如配置 insert-logo 的属性：
@@ -114,12 +114,12 @@ Gitbook 默认自带有 5 个插件:
 }
 ```
 
-# 2. 常用插件
+### 2. 常用插件
 
 记录一些实用的插件
 用法：在 book.json 中添加"plugins"和"pluginConfig"字段。然后执行 `gitbook install`，或者使用 NPM 安装 `npm install gitbook-plugin-插件名`，也可以从源码 GitHub 地址中下载，放到 `node_modules` 文件夹里。
 
-## 2.1. Search Pro
+#### 2.1. Search Pro
 
 支持中文搜索, 需要将默认的 `search`, `lunr` 插件去掉, 注意: 如果标题中有包含的关键字, 标题的样式会有所变化
 
@@ -133,7 +133,7 @@ Gitbook 默认自带有 5 个插件:
 ]
 ```
 
-## 2.2. anchor-navigation-ex
+#### 2.2. anchor-navigation-ex
 
 添加 Toc 到侧边悬浮导航以及回到顶部按钮
 
@@ -141,9 +141,9 @@ Gitbook 默认自带有 5 个插件:
 "plugins" : [ "back-to-top-button" ]
 ```
 
-## 2.3. 导航目录扩展
+### 2.3. 导航目录扩展
 
-### 2.3.1. folding-chapters
+#### 2.3.1. folding-chapters
 
 支持多层目录，点击导航栏的标题名就可以实现折叠扩展。
 
@@ -153,7 +153,7 @@ Gitbook 默认自带有 5 个插件:
 "plugins" : [ "folding-chapters" ]
 ```
 
-### 2.3.2. expandable-chapters (expandable-chapters-small)
+#### 2.3.2. expandable-chapters (expandable-chapters-small)
 
 [Github 地址](https://github.com/DomainDrivenArchitecture/gitbook-plugin-expandable-chapters)
 [Github 地址](https://github.com/lookdczar/gitbook-plugin-expandable-chapters-small-auto)
@@ -165,7 +165,7 @@ Gitbook 默认自带有 5 个插件:
 "plugins" : [ "expandable-chapters-small" ]
 ```
 
-## 2.4. splitter
+#### 2.4. splitter
 
 侧边栏宽度可调节
 
@@ -175,7 +175,7 @@ Gitbook 默认自带有 5 个插件:
 "plugins" : [ "splitter" ]
 ```
 
-## 2.5. copy-code-button
+#### 2.5. copy-code-button
 
 代码复制按钮
 
@@ -185,7 +185,7 @@ Gitbook 默认自带有 5 个插件:
 "plugins" : [ "copy-code-button" ]
 ```
 
-## 2.6. insert-logo
+#### 2.6. insert-logo
 
 将 logo 插入到导航栏上方中。设置路径时，设置成绝对路径，不然在其他的文件里，可能会访问不到。
 
@@ -203,7 +203,7 @@ Gitbook 默认自带有 5 个插件:
 }
 ```
 
-## 2.7. favicon
+#### 2.7. favicon
 
 浏览器标签栏的 favicon 图标。路径设置同 `insert-logo`。
 
@@ -220,9 +220,9 @@ Gitbook 默认自带有 5 个插件:
 }
 ```
 
-## 2.8. 页面添加页脚、版权信息
+#### 2.8. 页面添加页脚、版权信息
 
-### 2.8.1 tbfed-pagefooter
+##### 2.8.1 tbfed-pagefooter
 
 添加页脚，版权信息
 
@@ -246,7 +246,7 @@ Gitbook 默认自带有 5 个插件:
 如果想加入一个URL，自己可以去index.js里，把 `powered by gitbook`，改成
 powered by `<a href="你的URL" target="_blank">你的名字</a>`
 
-### 2.8.2 page-footer
+##### 2.8.2 page-footer
 
 内容比 `tbfed-pagefooter` 多
 
@@ -276,7 +276,7 @@ powered by `<a href="你的URL" target="_blank">你的名字</a>`
 那个二维码可以在文件中找到QRcode改成自己的，或者直接把所有的 `efaultOption.isShowQRCode` 改成 `false`。
 
 
-## 2.9. sharing-plus
+#### 2.9. sharing-plus
 
 分享当前页面，比默认的 sharing 插件多了一些分享方式。
 现在 sharing-plus 插件在 github 搜索不到， 但是 npm 还是可以下载使用的。
@@ -303,7 +303,7 @@ powered by `<a href="你的URL" target="_blank">你的名字</a>`
 }
 ```
 
-## 2.10. donate
+#### 2.10. donate
 
 文章最下面的按钮，点击可弹出图片。
 
@@ -325,7 +325,7 @@ powered by `<a href="你的URL" target="_blank">你的名字</a>`
 }
 ```
 
-## 2.11. 其他插件
+#### 2.11. 其他插件
 [github-buttons](https://github.com/azu/gitbook-plugin-github-buttons) 顶部添加 github 信息
 
 [baidu-tongji](https://github.com/huisman6/gitbook-plugin-baidu-tongji) 百度统计

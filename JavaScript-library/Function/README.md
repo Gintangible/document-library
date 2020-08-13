@@ -1,5 +1,5 @@
-# JavaScript Function
+## JavaScript Function
 
-## Functions 目录
+### Functions 目录
 
 * [Promise all](./Promise-all.md)

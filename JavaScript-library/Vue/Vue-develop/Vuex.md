@@ -1,4 +1,4 @@
-# Vuex
+## Vuex
 
 `Vuex` 的基本使用可以用下方方式。更复杂的建议看 **[官方文档](https://vuex.vuejs.org/zh/)**。
 
@@ -6,7 +6,7 @@ npm 安装
 
 `npm install vuex --save`
 
-## 1. 创建store文件夹
+### 1. 创建store文件夹
 
 创建 `store` 文件夹，存放状态文件。
 
@@ -76,7 +76,7 @@ const store = new Vuex.Store({
 export default store;
 ```
 
-## 2. main.js 引入
+### 2. main.js 引入
 
 > main.js
 
@@ -92,7 +92,7 @@ new Vue({
 }).$mount('#app');
 ```
 
-## 3. 组件内部使用
+### 3. 组件内部使用
 
 > component.vue
 

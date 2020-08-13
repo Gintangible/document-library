@@ -59,7 +59,5 @@
 * [软件介绍](software/README.md)
     * [软件推荐](software/software-recommend.md)
     * [VSCode](software/vscode.md)
-    * [final Shell](software/final-shell.md)
-* [闲情雅致](life/README.md)
-    * [阅读](life/read/README.md)
+    * [whistle](software/whistle.md)
 

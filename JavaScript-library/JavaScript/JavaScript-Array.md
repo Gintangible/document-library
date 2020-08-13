@@ -1,8 +1,8 @@
-# Array
+## Array
 
 常见的数组方法如下，查看[更多数组方法](<https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array>)。
 
-## 一、增删改查
+### 一、增删改查
 
 **1. push()**
 
@@ -107,7 +107,7 @@ console.log(ls.indexOf('a')); // 0
 console.log(ls.indexOf('e')); // -1
 ```
 
-## 五、其余方法
+### 五、其余方法
 
 **1. sort()**
 
@@ -186,7 +186,7 @@ console.log([1,2,3,4,5].reduce((a,b,c,d) => a + 1)); // 5
 
 
 
-## 六、ES6 新增
+### 六、ES6 新增
 
 **1. includes()**
 

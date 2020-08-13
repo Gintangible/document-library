@@ -1,6 +1,6 @@
-# gitbook issues
+## gitbook issues
 
-## 1. 热更新失败
+### 1. 热更新失败
 
 在使用 `gitbook serve` 启动 `gitbook` 服务后,如果本地文件发生更改,热加会失败。在网上找到了一个解决方案。即：
 

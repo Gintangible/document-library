@@ -1,6 +1,6 @@
-# vscode
+## vscode
 
-## 插件推荐
+### 插件推荐
 
 * Auto Close Tag
 * Auto Rename Tag
@@ -14,7 +14,7 @@
 * open in browse
 * git lens
 
-## 用户设置
+### 用户设置
 
 ```
 {

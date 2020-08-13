@@ -1,4 +1,4 @@
-# CSS 重置
+## CSS 重置
 
 > Create by gintangible on **2019-06-06 10:41**
 > Recently revised in **2019-06-06 16：37**
@@ -10,7 +10,7 @@
 * `reset.css`
 * `normalize.css`
 
-## reset.css
+### reset.css
 
 重置浏览器样式，减少默认样式有可能带来的问题。以下是在网上找到一份 [`reset.css`](https://www.cnblogs.com/yizuierguo/archive/2009/07/15/1524106.html#3438322), 
 最好根据自己的实际项目，改造成适合自己的。
@@ -117,10 +117,10 @@ select:focus {
 }
 ```
 
-## normalize.css
+### normalize.css
 
 Normalize.css 是一种 CSS reset 的替代方案。Normalize.css 只是一个很小的 CSS 文件，但它在默认的 HTML 元素样式上提供了跨浏览器的高度一致性。
- 
+
 * 保护有用的浏览器默认样式而不是完全去掉它们
 * 为大部分HTML元素提供一般化的样式
 * 修复浏览器自身的bug并保证各浏览器的一致性

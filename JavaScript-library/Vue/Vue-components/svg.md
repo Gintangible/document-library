@@ -1,6 +1,6 @@
-# svg
+## svg
 
-## 1. 创建 icon.vue
+### 1. 创建 icon.vue
 
 在`vue-cli`脚手架的`components`目录下，创建`svgIcon/index.vue`。
 
@@ -40,7 +40,7 @@ export default {
 </style>
 ```
 
-## 2. 创建icons文件夹，存放svg文件夹、index.js
+### 2. 创建icons文件夹，存放svg文件夹、index.js
 
 > -icons
 
@@ -63,14 +63,14 @@ const requireAll = requireContext => requireContext.keys().map(requireContext);
 requireAll(req);
 ```
 
-## 3. main.js 中引入
+### 3. main.js 中引入
 
 ```
 // 引入icon
 import './icons';
 ```
 
-## 4. 修改 loader
+### 4. 修改 loader
 
 仅上面的操作，在页面上看不到svg图片。还需使用和安装svg-sprite。
 
@@ -102,7 +102,7 @@ chainWebpack(config){
 
 如此设置之后，即可使用。
 
-## 5. 在页面中引用
+### 5. 在页面中引用
 
 `<svg-icon icon-Name="home"></svg-icon>`
 
