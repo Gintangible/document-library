@@ -7,57 +7,56 @@
 * Chinese
 * Path Intellisense
 * Prettier
-* Npm INtellisense
+* Npm Intellisense
 * Settting Sync
 * Vetur
 * VSCode-icons
 * open in browse
 * git lens
 
-### 用户设置
+### setting.json
 
 ```
 {
-    "window.zoomLevel": 1,
-    // 竖线
-    "editor.renderIndentGuides": true,
-    "extensions.ignoreRecommendations": true,
-    "emmet.syntaxProfiles": {
-        "vue-html": "html",
-        "vue": "html"
-    },
-    "vetur.validation.template": false,
-    "vetur.format.options.tabSize": 4,
-    "vetur.format.options.useTabs": true,
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
-    "vetur.format.defaultFormatterOptions": {
-        "js-beautify-html": {
-            "wrap_attributes": "auto"
-        },
-        "prettier": {
-            "singleQuote": true,
-            "semi": true,
-            "tabWidth": 4
-        },
-        "prettyhtml": {
-            "singleQuote": false,
-            "wrapAttributes": false,
-            "sortAttributes": false
-        }
-    },
-    "files.autoSave": "off",
-    "editor.wordWrap": "on",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "update.channel": "none",
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "workbench.iconTheme": "vscode-icons",
-    "sync.gist": "728f6199bec08ede4314e2b80fea8e19",
-    "beautify.config": {
-        "brace_style": "collapse,preserve-inline"
-    },
-    "prettier.tabWidth": 4,
-    "prettier.singleQuote": true,
-    "prettier.semi": true
+  "window.zoomLevel": 1,
+  "editor.wordWrap": "on",
+  // 竖线
+  "editor.renderIndentGuides": true,
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      // 行尾需要有分号
+      "semi": true,
+      // 使用单引号
+      "singleQuote": true,
+      // 大括号内的首尾需要空格
+      "bracketSpacing": true,
+      // 代码缩进是否用制表符tab
+      "useTabs": false,
+      // 制表符tab的宽度
+      "tabWidth": 4,
+      // 末尾逗号
+      "trailingComma": "none",
+      // 箭头函数，只有一个参数的时候，也需要括号
+      "arrowParens": "always",
+      "useEditorConfig": false,
+      // 对象属性的引号使用
+      "quoteProps": "consistent"
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.path": "/usr/bin/git"
 }
 ```
