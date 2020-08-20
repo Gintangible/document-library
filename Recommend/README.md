@@ -27,6 +27,8 @@
 
 抓包工具。经同事推荐使用后，发现其比`fiddler`使用要更方便。
 
-[教程](https://www.jianshu.com/p/8186fb28be59)
+[教程](./whistle.md)
 
-[教程](https://segmentfault.com/a/1190000016058875?utm_source=tag-newest)
+### 5. VScode
+
+[settting 配置](./vscode.md)
