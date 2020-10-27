@@ -32,3 +32,12 @@
 ### 5. VScode
 
 [settting 配置](./vscode.md)
+
+### 6. Beyond Compare
+
+文件比对工具
+
+### 7. node版本管理
+
+[nvm](https://github.com/coreybutler/nvm-windows)
+
