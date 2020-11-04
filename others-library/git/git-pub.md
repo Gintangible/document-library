@@ -34,7 +34,7 @@ ssh-keygen -t rsa -C "useremail@.com"  -f ~/.ssh/newname
 
 此时会在`.ssh`文件夹下生成`newname` 和`newname.pub`
 
-在`.ssh`文件夹，创建 `config` 文件
+在`.ssh`文件夹，创建 `config` 文件（需验证下）。
 
 ```
 Host gitlab.com
@@ -51,8 +51,8 @@ IdentityFile ~/.ssh/id_rsa_accountName
 验证`ssh`
 
 ```
-ssh -T git@gitee.com
-ssh -T git@github.com
+ssh -T gintangible@gitee.com
+ssh -T gintangible@github.com
 ```
 
 
