@@ -34,30 +34,37 @@ ssh-keygen -t rsa -C "useremail@.com"  -f ~/.ssh/newname
 
 此时会在`.ssh`文件夹下生成`newname` 和`newname.pub`
 
-在`.ssh`文件夹，创建 `config` 文件（需验证下）。
+在`.ssh`文件夹，创建 `config` 文件（不需要后缀名）。
 
 ```
-Host gitlab.com
-HostName gitlab.com
-PreferredAuthentications publickey
-IdentityFile ~/.ssh/id_rsa_accountName
-
+# github 
 Host github.com
 HostName github.com
-PreferredAuthentications publickey
-IdentityFile ~/.ssh/id_rsa_accountName
+User gintangible
+IdentityFile C:/Users/admin/.ssh/id_rsa
+IdentitiesOnly yes
+ 
+# njzhyl(guwx@njzhyl.cn)
+Host dev.njzhyl.cn
+HostName dev.njzhyl.cn
+User guxw
+IdentityFile C:/Users/admin/.ssh/njzhyl
+IdentitiesOnly yes
 ```
 
 验证`ssh`
 
 ```
-ssh -T gintangible@gitee.com
-ssh -T gintangible@github.com
+ssh -T hostname
 ```
 
+如果得到如下提示，表示这个ssh公钥已经获得了权限。
 
+```
+`Hi USERNAME! You've successfully authenticated, but github does not provide shell access.`
+```
 
-
+<span style="color:#f00;">**注意**：</span>生成密钥要在`git bash` 里生成，`window` 窗口是不行的。
 
 
 
