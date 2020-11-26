@@ -4,4 +4,3 @@
 
 * [vconsole](./vconsole.md)
 * [whistle](./whistle.md)
-* [微信清除缓存](./wxchat-clean.md)
