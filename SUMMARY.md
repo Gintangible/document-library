@@ -50,6 +50,7 @@
 * [辅助开发](Develop-assist/README.md)
     * [whistle](Develop-assist/whistle.md)
     * [vconsole](Develop-assist/vconsole.md)
+    * [微信清除缓存](Develop-assist/wxchat-clean.md)
 * [npm utils](Npm-library/README.md)
   * [json-bigint 后端数据精度丢失。](Npm-library/json-bigint.md)
   * [base64 解码](Npm-library/base64.md)
