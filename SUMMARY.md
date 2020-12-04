@@ -23,6 +23,7 @@
 * [Vue](Vue-library/README.md)
     * [Vue-cli](Vue-library/Vue-CLI/README.md)
         * [Vue-cli.env](Vue-library/Vue-CLI/Vue-env.md)
+        * [Vue-config](Vue-library/Vue-CLI/Vue-config.md)
     * [Vue 开发准备](Vue-library/Vue-develop/README.md)
         * [Vue 基础语法](Vue-library/Vue-develop/Vue-base.md)
         * [Vue 开发](Vue-library/Vue-develop/Vue-develop.md)
