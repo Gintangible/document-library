@@ -28,7 +28,7 @@
 
 启动完成后在chorme下打开 127.0.0.1:8899 可以看到这么一个页面：
 
-![whistle 初始界面](.\images\whistle_init.png)
+![whistle 初始界面](./images/whistle_init.png)
 
 但是现在还无法抓包，需要为浏览器设置代理。
 
@@ -38,15 +38,15 @@
 
 设置如下：
 
-![chrome 设置代理](.\images\whistle_proxy.png)
+![chrome 设置代理](./images/whistle_proxy.png)
 
 配置完成后，就可以抓包了。
 
-![chrome 设置代理](.\images\whistle_ok.png)
+![chrome 设置代理](./images/whistle_ok.png)
 
 如需抓取`https`包，安装`whistle `证书。
 
-![whistle证书](.\images\whistle_CA.png)
+![whistle证书](./images/whistle_CA.png)
 
 ### 4. 基础功能
 
@@ -67,5 +67,5 @@ http:www.xx.com/xxx    ip
 
 根据右上角的服务器地址和端口，在手机上配置代理后，即可抓取真机的包。
 
-![真机调试](.\images\whistle_phone.png)
+![真机调试](./images/whistle_phone.png)
 
