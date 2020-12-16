@@ -7,6 +7,7 @@
     * [CSS 规范](Develop-standard/standard-css.md)
     * [js 规范](Develop-standard/standard-js.md)
     * [vue 规范](Develop-standard/standard-vue.md)
+    * [eslint 规范](Develop-standard/standard-eslint.md)
 * [HTML Library](HTML-library/README.md)
     * [HTML label](HTML-library/HTML-label.md)
 * [CSS Library](CSS-library/README.md)
