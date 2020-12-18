@@ -38,7 +38,7 @@
         * [组件通信](Vue-library/Vue-components/components-base.md)
         * [svg](Vue-library/Vue-components/svg.md)
         * [scroll](Vue-library/Vue-components/scroll.md)
-    * [Vue 源码](Vue-library/Vue-source-code/README.md)
+    * [Vue 问题](Vue-library/Vue-problems/README.md)
 * [wechat相关](WX-library/README.md)
     * [微信清除缓存](WX-library/wxchat-clean.md)
     * [h5网页唤起小程序](WX-library/H5toWX.md)
