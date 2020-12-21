@@ -2,16 +2,19 @@
 
 ### 插件推荐
 
-* Auto Close Tag
-* Auto Rename Tag
-* Chinese
-* Path Intellisense
+* Auto Close Tag（自动闭合 `HTML/XML` 标签）
+* Auto Rename Tag（自动重名名成对的 `HTML` 标签）
+* Bracker Pair Colorizer（把成对的括号做颜色区分，并且提供一根连接线。）
+* Chinese（VSCode 汉化包）
+* CSS Peek（CSS 样式查看器）
+* Image preview（鼠标悬浮在链接上可及时预览图片）
+* Path Intellisense（自动提示文件路径，支持各种快速引入文件）
 * Prettier
-* Npm Intellisense
+* Npm Intellisense（自动完成导入语句中的npm模块）
 * Settting Sync
 * Vetur
-* VSCode-icons
-* open in browse
+* VSCode-icons（图标主题）
+* open in browse（快速打开`html`文件到浏览器预览）
 * git lens
 
 ### setting.json
