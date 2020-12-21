@@ -25,6 +25,8 @@
   "editor.wordWrap": "on",
   // 竖线
   "editor.renderIndentGuides": true,
+  // vscode默认启用了根据文件类型自动设置tabsize的选项
+  "editor.detectIndentation": false,
   "vetur.format.defaultFormatterOptions": {
     "prettier": {
       // 行尾需要有分号
