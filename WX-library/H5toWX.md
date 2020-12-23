@@ -88,3 +88,4 @@ Vue.config.ignoredElements = ['wx-open-launch-weapp'];
 6. **<span style="color:#f00;">真机环境</span>下才能看到效果**
 7. **已验证的服务号，已加入JS安全域名**
 8. <span style="color:#f00;">组件中的username必须是看起来“有效的”，最好是使用真实小程序原始id</span>
+9. <span style="color:#f00;">appid 也要正确</span>

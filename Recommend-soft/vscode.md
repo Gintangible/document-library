@@ -24,7 +24,7 @@
   "window.zoomLevel": 1,
   "editor.wordWrap": "on",
   // 竖线
-  "editor.renderIndentGuides": true,
+  "editor.renderIndentGuides": true,、
   // vscode默认启用了根据文件类型自动设置tabsize的选项
   "editor.detectIndentation": false,
   "vetur.format.defaultFormatterOptions": {

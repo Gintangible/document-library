@@ -32,8 +32,10 @@ mutations: {
 
 **解决方法：**
 
-```
-state.dataInfo = Object.assign(...state.dataInfo, data);
+```javascript
+state.dataInfo = Object.assign({}, state.dataInfo, data);
+// or
+state.dataInfo = {...state.dataInfo, ...data};
 ```
 
 
