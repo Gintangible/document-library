@@ -27,7 +27,13 @@
   "editor.renderIndentGuides": true,、
   // vscode默认启用了根据文件类型自动设置tabsize的选项
   "editor.detectIndentation": false,
+  "files.eol": "\n",
   "vetur.format.defaultFormatterOptions": {
+  	"wrap_attributes": "force-expand-multiline",
+     "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline",
+      "end_with_newline": true
+    },
     "prettier": {
       // 行尾需要有分号
       "semi": true,
@@ -38,7 +44,7 @@
       // 代码缩进是否用制表符tab
       "useTabs": false,
       // 制表符tab的宽度
-      "tabWidth": 4,
+      "tabWidth": 2,
       // 末尾逗号
       "trailingComma": "none",
       // 箭头函数，只有一个参数的时候，也需要括号
