@@ -28,6 +28,7 @@
   // vscode默认启用了根据文件类型自动设置tabsize的选项
   "editor.detectIndentation": false,
   "files.eol": "\n",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
   "vetur.format.defaultFormatterOptions": {
   	"wrap_attributes": "force-expand-multiline",
      "js-beautify-html": {
