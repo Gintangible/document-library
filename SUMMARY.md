@@ -9,19 +9,17 @@
     * [vue 规范](Develop-standard/standard-vue.md)
     * [eslint 规范](Develop-standard/standard-eslint.md)
 * [HTML Library](HTML-library/README.md)
+    
     * [HTML label](HTML-library/HTML-label.md)
 * [CSS Library](CSS-library/README.md)
     * [CSS 重置](CSS-library/CSS-reset.md)
     * [CSS 酷炫效果](CSS-library/CSS-effect.md)
     * [CSS 伪类](CSS-library/CSS-pseudo.md)
 * [JavaScript library](JavaScript-library/README.md)
-    * [JavaScript](JavaScript-library/JavaScript/README.md)
-        * [Array](JavaScript-library/JavaScript/JavaScript-Array.md)
-        * [String](JavaScript-library/JavaScript/JavaScript-String.md)
-        * [Reg](JavaScript-library/JavaScript/JavaScript-Reg.md)
-        * [深拷贝与浅拷贝的区别](JavaScript-library/JavaScript/JavaScript-clone.md)
-    * [JavaScript Function](JavaScript-library/Function/README.md)
-        * [Promise all](JavaScript-library/Function/Promise-all.md)
+
+    * [深拷贝与浅拷贝的区别](JavaScript-library/JavaScript-clone.md)
+
+    * [Promise all](JavaScript-library/Promise-all.md)
 * [Vue](Vue-library/README.md)
     * [Vue-cli](Vue-library/Vue-CLI/README.md)
         * [Vue-cli.env](Vue-library/Vue-CLI/Vue-env.md)
@@ -51,6 +49,7 @@
     * [json-bigint 后端数据精度丢失。](Npm-library/json-bigint.md)
     * [js-base64](Npm-library/js-base64.md)
 * [前端性能优化](Optimization/README.md)
+    
     * [前端性能标准](Optimization/standard.md)
 * [Others-library](Others-library/README.md)
     * [gitbook](Others-library/gitbook/README.md)
@@ -70,7 +69,9 @@
     * [vconsole](Develop-assist/vconsole.md)
 * [npm utils](Npm-library/README.md)
 * [软件推荐](Recommend-soft/README.md)
+    
     * [VSCode](Recommend-soft/vscode.md)
 * [ 面试宝典](Interview-guide/README.md)
+  
     * [面试题](Interview-guide/interview.md)
 

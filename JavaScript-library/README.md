@@ -1,10 +1,5 @@
-## JavaScript-library
+## JavaScript Function
 
-> Create by gintangible on **2019-06-05 16:59** 
+### Functions 目录
 
-### 目录
-
-* [JavaScript](./JavaScript/README.md)
-* [Function](./Function/README.md)
-* [Vue](./Vue/README.md)
-
+* [Promise all](./Promise-all.md)
