@@ -2,7 +2,7 @@
 
 **1. 创建本地分支**
 
-```
+```bash
 git branch 分支名
 ```
 
@@ -10,13 +10,13 @@ git branch 分支名
 
 **2. 切换到本地分支**
 
-```
+```bash
 git checkout 分支名
 ```
 
 **3. 创建本地分支并切换**
 
-```
+```bash
  git checkout -b 分支名 
 ```
 
@@ -24,7 +24,7 @@ git checkout 分支名
 
 **4. 提交本地分支到远程仓库**
 
-```
+```bash
 git push origin 本地分支名
 ```
 
@@ -32,7 +32,7 @@ git push origin 本地分支名
 
 **5. 本地创建分支并切换到该分支**
 
-```
+```bash
 git checkout -b dev(本地分支名称) origin/dev(远程分支名称)
 ```
 
@@ -40,7 +40,7 @@ git checkout -b dev(本地分支名称) origin/dev(远程分支名称)
 
 **6. 删除本地分支**
 
-```
+```bash
 git branch -d dev
 ```
 
@@ -48,7 +48,13 @@ git branch -d dev
 
 **7. 删除远程分支**。切到master分支
 
-```
+```bash
 git push --delete origin xx
+```
+
+**8. 关联远程分支**
+
+```bash
+git branch --set-upstream-to=origin/xxx xxx
 ```
 
