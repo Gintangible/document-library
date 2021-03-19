@@ -68,3 +68,7 @@ const data = jsonParser(res.data);
 [文档地址](https://github.com/youzan/vant/tree/dev/packages/vant-cli)
 
 基于 `vant` 组件库进行二次开发。
+
+### 7. js-file-download 
+
+文件下载。 移动端下载会有点问题，pc 端ok。

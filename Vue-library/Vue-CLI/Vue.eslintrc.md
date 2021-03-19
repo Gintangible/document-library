@@ -24,6 +24,12 @@ module.exports = {
     'plugin:vue/recommended',
   ],
   rules: {
+    // yarn add eslint-plugin-vue --dev
+    // 非required 的prop 无需设置 default
+  	"vue/require-default-prop": ["error",  {
+      "required": true,
+      "non-required": false,
+    }],
     // 强制类方法使用 this
     'class-methods-use-this': 'off',
     // 要求或禁止末尾逗号
@@ -53,7 +59,7 @@ module.exports = {
       ignoreRegExpLiterals: true,
     }],
     // 禁用 console
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-console': 'off',
     // 禁用 debugger
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     // 禁止 if 语句中 return 语句之后有 else 块
