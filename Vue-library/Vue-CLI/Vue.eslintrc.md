@@ -24,12 +24,6 @@ module.exports = {
     'plugin:vue/recommended',
   ],
   rules: {
-    // yarn add eslint-plugin-vue --dev
-    // 非required 的prop 无需设置 default
-  	"vue/require-default-prop": ["error",  {
-      "required": true,
-      "non-required": false,
-    }],
     // 强制类方法使用 this
     'class-methods-use-this': 'off',
     // 要求或禁止末尾逗号
