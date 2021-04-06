@@ -5,7 +5,7 @@
 - [检测 es5 es-check](#es_check)
 - [base64编码——js base64 ](# js_base64 )
 - [大数据丢失精度——json-bigint](#json_bigint)
-- [queryString](#query_string)
+- [qs](#qs)
 - [模拟数据——mock](#mockjs)
 - [Vant Cli](#vant_cli)
 
@@ -51,9 +51,11 @@ const data = jsonParser(res.data);
 
 [▲ 回顶部](#top)
 
-### 4. <span id="query_string">queryString</span>
+### 4. <span id="qs">qs</span>
 
-`base64` 中有 `+` 时会解析乱码。
+解析和格式化 URL 查询字符串的实用工具，功能强于 `query-string`。
+
+[参考文档](https://www.npmjs.com/package/qs)
 
 [▲ 回顶部](#top)
 
