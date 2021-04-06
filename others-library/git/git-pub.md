@@ -34,6 +34,8 @@ ssh-keygen -t rsa -C "useremail@.com"  -f ~/.ssh/newname
 
 此时会在`.ssh`文件夹下生成`newname` 和`newname.pub`
 
+查看 `.ssh`, 进入 .ssh `cd ~/.ssh`, 查看 `cat id_rsa.pub`。
+
 在`.ssh`文件夹，创建 `config` 文件（不需要后缀名）。
 
 ```
