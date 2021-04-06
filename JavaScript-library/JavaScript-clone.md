@@ -33,19 +33,33 @@ function deepClone(obj) {
 2.深拷贝方式二
 
 ```
-function deepClone(target) {
-    if (typeof target !== 'object' || target === null || target.constructor === RegExp) {
-        return target;
-    }
+function deepClone(obj, hash = new WeakMap()) {
+    if (typeof obj !== 'object' || target === null) {
+    return obj;
+  }
+  let tempobj;
+  const constructor = obj.constructor;
+  switch (constructor) {
+    case RegExp:
+      tempobj = new constructor(obj);
+      break;
+    case Date:
+      tempobj = new constructor(obj);
+      break;
+    case Function:
+      tempobj = obj;
+      break;
+    default:
+      if (hash.has(obj)) {
+        return hash.get(obj);
+      }
+      tempobj = Array.isArray(obj) ? [] : {};
+      hash.set(obj, tempobj);
+  }
+  for (const key in obj) {
+    tempobj[key] = typeof obj[key] === 'object' ? deepClone((obj[key]), hash) : obj[key];
+  }
 
-    let cloneTarget = Array.isArray(target) ? [] : {};
-
-    for (const key in target) {
-        if(target.hasOwnProperty(key)) {
-            cloneTarget[key] = typeof target[key] === 'object' ? deepClone(target[key]) : target[key];
-        }
-    }
-
-    return cloneTarget;
+  return tempobj;
 }
 ```
