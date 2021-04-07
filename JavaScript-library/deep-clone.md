@@ -34,7 +34,7 @@ function deepClone(obj) {
 
 ```
 function deepClone(obj, hash = new WeakMap()) {
-    if (typeof obj !== 'object' || target === null) {
+  if (typeof obj !== 'object' || obj === null) {
     return obj;
   }
   let tempobj;

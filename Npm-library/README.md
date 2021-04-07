@@ -9,8 +9,6 @@
 - [模拟数据——mock](#mockjs)
 - [Vant Cli](#vant_cli)
 
-
-
 ### 1. <span id="es_check">es-check</span>
 
 [es-check 文档](https://www.npmjs.com/package/es-check)

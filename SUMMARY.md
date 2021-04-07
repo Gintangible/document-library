@@ -8,8 +8,16 @@
     * [js 规范](Develop-standard/standard-js.md)
     * [vue 规范](Develop-standard/standard-vue.md)
     * [eslint 规范](Develop-standard/standard-eslint.md)
+* [辅助开发](Develop-assist/README.md)
+  * [shell 知识](Develop-assist/shell.md)
+  * [虚拟机](Develop-assist/Virtual.md)
+  * [测试工具 mocha](Develop-assist/mocha.md)
+  * [移动端log 日志](Develop-assist//log.md)
+  * [抓包工具 whistle](Develop-assist/whistle.md)
+  * [错误日志上报](Develop-assist/sentry.md)
+  * [前端埋点 talking-data](Develop-assist//talking-data.md)
 * [HTML Library](HTML-library/README.md)
-    
+  
     * [HTML label](HTML-library/HTML-label.md)
 * [CSS Library](CSS-library/README.md)
     * [CSS 重置](CSS-library/CSS-reset.md)
@@ -49,7 +57,7 @@
     * [json-bigint 后端数据精度丢失。](Npm-library/json-bigint.md)
     * [js-base64](Npm-library/js-base64.md)
 * [前端性能优化](Optimization/README.md)
-    
+  
     * [前端性能标准](Optimization/standard.md)
 * [Others-library](Others-library/README.md)
     * [gitbook](Others-library/gitbook/README.md)
@@ -63,13 +71,9 @@
         * [git  branch](Others-library/git/git-branch.md)
         * [其他](Others-library/git/git-other.md)
     * [webpack](Others-library/webpack/README.md)
-* [辅助开发](Develop-assist/README.md)
-    * [虚拟机](Develop-assist/Virtual.md)
-    * [whistle](Develop-assist/whistle.md)
-    * [vconsole](Develop-assist/vconsole.md)
 * [npm utils](Npm-library/README.md)
 * [软件推荐](Recommend-soft/README.md)
-    
+  
     * [VSCode](Recommend-soft/vscode.md)
 * [ 面试宝典](Interview-guide/README.md)
   

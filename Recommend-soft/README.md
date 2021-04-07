@@ -45,5 +45,9 @@
 
 [在线查看ip地址](https://www.ipaddress.com/)
 
+### 9. 压缩图片
+
+[压缩图片](https://tinypng.com/)
+
 
 

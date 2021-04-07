@@ -4,21 +4,19 @@ Shell 脚本
 
 - 单行注释： `#`
 
-- 多行注释： 
+- 多行注释：
 
   - ```shell
     : !
     # 注释内容
     !
-    
-    ```
 
-:<<EOF
+    :<<EOF
     # 注释内容
     EOF
     #EOF 可以使用其他符号 ! ' ...
     ```
-    
+
 
 ### 变量类型
 运行shell时，会同时存在三种变量：
@@ -65,7 +63,7 @@ echo ${#name}
 
 # 字符串截取
 #1:4 从第2个开始 往后截取4个字符
-echo ${name:1:4} #输出 his 
+echo ${name:1:4} #输出 his
 #::4 从第一个字符开始 往后截取4个字符
 echo ${name::4} #输出 this
 
@@ -141,7 +139,7 @@ expr 是一款表达式计算工具，使用它能完成表达式的求值操作
 **注意**：在 MAC 中 shell 的 expr 语法是：**$((表达式))**，此处表达式中的 `*` 不需要转义符号 `\` 。
 
 ```shell
-# \+ 、-、*、\ 
+# \+ 、-、*、\
 # 乘号前必须加 \ 进行转义才可以进行乘法运算
 
 num=$[1+2] # 加减乘除,不必添加空格
@@ -156,22 +154,22 @@ num1= `expr 1 + 2` # 需要空格
 ```shell
 a=10
 b=20
-# -eq ：检测两个数是否相等，相等返回 true。 
+# -eq ：检测两个数是否相等，相等返回 true。
 [ $a -eq $b ] # false。
 
-# -ne： 检测两个数是否不相等，不相等返回 true。 
+# -ne： 检测两个数是否不相等，不相等返回 true。
 [ $a -ne $b ] # true。
 
-# -gt： 检测左边的数是否大于右边的，如果是，则返回 true。 
+# -gt： 检测左边的数是否大于右边的，如果是，则返回 true。
 [ $a -gt $b ] # false。
 
-# -lt ： 检测左边的数是否小于右边的，如果是，则返回 true。 
+# -lt ： 检测左边的数是否小于右边的，如果是，则返回 true。
 [ $a -lt $b ] # true。
 
-#-ge： 检测左边的数是否大于等于右边的，如果是，则返回 true。 
+#-ge： 检测左边的数是否大于等于右边的，如果是，则返回 true。
 [ $a -ge $b ] # false。
 
-# -le ： 检测左边的数是否小于等于右边的，如果是，则返回 true。 
+# -le ： 检测左边的数是否小于等于右边的，如果是，则返回 true。
 [ $a -le $b ] # true
 ```
 
@@ -199,7 +197,7 @@ b='efg'
 **布尔运算符**
 
 ```shell
-# ! ：非运算 
+# ! ：非运算
 [ ! false ] 返回 true。
 
 # -o ：或运算 则返回 true。
@@ -323,7 +321,7 @@ printf "%-10s %-8s %-4.2f\n" 郭靖 男 66.1234
   - \ddd ：表示1到3位数八进制值的字符。仅在格式字符串中有效
   - \0ddd ：表示1到3位的八进制值字符
 
-### test 
+### test
 
 ````bash
 test -e file # 文件是否存在
@@ -353,7 +351,7 @@ do
 	command1
 	command2
 	...
-	commandN 
+	commandN
 done
 ```
 
@@ -389,19 +387,19 @@ case需要一个esac（就是case反过来）作为结束标记，每个case分�
 case语句格式如下：
 
 ```shell
-case 值 in 
+case 值 in
 模式1)
 	command1
 	command2
 	...
 	commandN
-	;; 
+	;;
 模式2)
     command1
     command2
     ...
     commandN
-    ;; 
+    ;;
 esac
 ```
 
@@ -419,7 +417,7 @@ esac
 [ function ] funname [()]
 {
 	action;
-	
+
 	[return int;]
 }
 
@@ -455,7 +453,7 @@ funname 参数1 参数2 参数3 ...
 
 ```shell
 # 注意点号(.)和文件名中间有一空格
-. filename 
+. filename
 # 或
 source filename
 ```
